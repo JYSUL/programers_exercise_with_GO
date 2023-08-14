@@ -1,10 +1,10 @@
 # [unrated] 배열 조각하기 - 181893 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181893) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181893?language=go) 
 
 ### 성능 요약
 
-메모리: 10.3 MB, 시간: 0.14 ms
+메모리: 3.53 MB, 시간: 0.00 ms
 
 ### 구분
 
