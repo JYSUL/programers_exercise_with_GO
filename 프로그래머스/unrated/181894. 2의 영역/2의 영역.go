@@ -8,15 +8,15 @@ func solution(arr []int) []int {
             break
         }
     }
+    if !flag {
+        return []int{-1}
+    }
+    
     for i := len(arr) -1; i >= 0; i-- {
         if arr[i] == 2 {
             end = i
-            flag = true
             break
         }
-    }
-    if !flag {
-        return []int{-1}
     }
     
     return arr[start: end+1]
