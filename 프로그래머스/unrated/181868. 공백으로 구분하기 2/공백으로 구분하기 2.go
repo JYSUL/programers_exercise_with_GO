@@ -6,5 +6,7 @@ func solution(my_string string) []string {
             answer_slice = append(answer_slice, str)
         }
     }
+    return strings.Fields(my_string)
     return answer_slice
+    
 }
