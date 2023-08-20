@@ -12,9 +12,7 @@ func solution(s string) int {
         
         if same_num == diff_num {
             same_num, diff_num = 0, 0
-            if i < len(s) - 1 {
-                str = s[i+1]
-            }
+            str = s[i+1]            
             answer++
         }
     }
