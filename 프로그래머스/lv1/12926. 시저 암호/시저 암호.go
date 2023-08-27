@@ -12,8 +12,8 @@ func solution(s string, n int) string {
         if str > 96 {
             str += rune(n)
             if str > 122 {
-                str -= 26
-            }
+                str -= 26     // n < 25
+            }       
         } else {
             str += rune(n)
             if str > 90 {
