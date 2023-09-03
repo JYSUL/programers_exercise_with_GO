@@ -12,7 +12,7 @@ func solution(want []string, number []int, discount []string) int {
         discount_table[discount[i]]++
     }
     
-    //제일처음이나 제일 마지막둘중 하나의 확인
+    //제일처음 하나의 확인
     flag = true
     for _, wan := range want {
         if want_table[wan] != discount_table[wan] {
