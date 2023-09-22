@@ -19,7 +19,7 @@ func solution(topping []int) int {
         if right_check[num] == 0 {
             right_count--
         }
-        if left_check[num] == false {
+        if !left_check[num] { // left_check[num] == false
             left_check[num] = true
             left_count++
         }
