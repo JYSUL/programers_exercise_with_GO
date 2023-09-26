@@ -23,9 +23,3 @@ func solution(orders []int) int {
     
     return result
 }
-
-/*
-스택과 남아있는 택배의 관계를 생각하면
-order가 순차적인 입력이 아니면 중단한다.
-탑승될 택배가 해당 범위의 +1 or -1인 경우에만 추가적인 진행을 한다.
-*/
