@@ -13,17 +13,11 @@ func solution(orders []int) int {
         } else if order == cargo {
             cargo++
         } else {
-            if len(sub_belt) == 0 {
+            if len(sub_belt) == 0 || sub_belt[len(sub_belt)-1] != order {
                 result = index
                 break
-            }
-            
-            if sub_belt[len(sub_belt)-1] == order {
-                sub_belt = sub_belt[:len(sub_belt)-1]
-            } else {
-                result = index
-                break
-            }
+            }            
+            sub_belt = sub_belt[:len(sub_belt)-1]            
         }
     } 
     
