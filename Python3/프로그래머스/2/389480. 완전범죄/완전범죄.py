@@ -15,4 +15,9 @@ def solution(info, n, m):
     else :
         return total_A
     
-    return 0
+
+
+"""
+대락적으로만 가늠해서 짠 알고리즘
+반례가 존재하지 않는다는 확신은 없다
+"""
